@@ -1,0 +1,83 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.search-input {
+  border-radius: 10px;
+  width: 90%;
+  border-width: 0px;
+  background-color: #f1f5f9;
+  padding: 15px;
+  color: #12022f;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.filter-heading {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 50px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-item {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.rating-image {
+  width: 75%;
+  margin-right: 10px;
+}
+
+.rating-text {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.selected {
+  color: #0967d2;
+}
+
+.clear-filters-button {
+  color: #0967d2;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: solid 1px #0967d2;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  margin-top: 20px;
+  cursor: pointer;
+}
